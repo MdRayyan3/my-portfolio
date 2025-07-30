@@ -151,7 +151,7 @@ body {
         opacity: 0;
     }
 }
-
+.about-linkedin-badge { display: flex; justify-content: flex-start; /* Change to center or right if you want */ margin-bottom: 2rem; } .badge-base.LI-profile-badge { box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-radius: 10px; background: var(--card-bg, #27293d); /* Use your site's card bg color if any */ padding: 10px; /* You can adjust width or responsiveness here if needed */ } /* Responsive: Center badge on mobile */ @media (max-width: 600px) { .about-linkedin-badge { justify-content: center; } }
 /* ============== SKILLS ============== */
 .skills-list {
     display: flex;
